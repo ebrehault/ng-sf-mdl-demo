@@ -1,3 +1,11 @@
-<h1>
-  {{title}}
-</h1>
+<mdl-layout mdl-layout-fixed-header>
+    <mdl-layout-header>
+        <mdl-layout-header-row>
+            <mdl-layout-title>{{title}}</mdl-layout-title>
+        </mdl-layout-header-row>
+        <button (click)="show()">Show values</button>
+    </mdl-layout-header>
+    <mdl-layout-content>
+        <sf-form [schema]="mySchema" [model]="myModel" [actions]="actions"></sf-form>
+    </mdl-layout-content>
+</mdl-layout>
