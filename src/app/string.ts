@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { StringWidget } from 'angular2-schema-form/src/defaultwidgets';
+import { StringWidget } from 'angular2-schema-form';
 
 @Component({
   selector: 'mdl-sf-string-widget',

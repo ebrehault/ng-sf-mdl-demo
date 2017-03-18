@@ -1,4 +1,4 @@
-import { DefaultWidgetRegistry } from 'angular2-schema-form/src';
+import { DefaultWidgetRegistry } from 'angular2-schema-form';
 
 import { MdlStringWidget } from './string';
 

@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import { SchemaFormModule, WidgetRegistry } from 'angular2-schema-form/src';
+import { SchemaFormModule, WidgetRegistry } from 'angular2-schema-form';
 import { MdlModule } from 'angular2-mdl';
 
 import { AppComponent } from './app.component';
